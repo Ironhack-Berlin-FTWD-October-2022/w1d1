@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS Introduction</title>
+    <!-- Not recommended. Better use a separate CSS file. -->
     <style>
         h1 {
             background-color: red;
@@ -17,8 +18,8 @@
 
     <!-- Structuring elements -->
     <!-- Semantic elements -->
-    <!-- All of these semantic elements are block elements. -->
-    <header style="color: red" id="top">This is a header.</header>
+    <!-- All of these semantic elements are block elements. --> 
+    <header style="color: red" id="top">This is a header.</header> <!-- Inline styling is also not recommended. -->
     <nav class="selected">This is the navigation.</nav>
     <section id="selected-id">This is a section. It is a container for other elements.
         <header>This is the header of the section</header>
@@ -68,6 +69,7 @@
         <li>Drink Club Mate</li>
     </ol>
 
+    <!-- This is a table. It is a block element. -->
     <table>
         <thead>
             <tr>
@@ -90,29 +92,8 @@
             </tr>
         </tbody>
     </table>
-    <table class="second-table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Country</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Matias</td>
-                <td>Argentina 🙌</td>
-            </tr>
-            <tr>
-                <td>Antonio</td>
-                <td>Argentina 🙌</td>
-            </tr>
-            <tr>
-                <td>Marco</td>
-                <td>Germany 😥</td>
-            </tr>
-        </tbody>
-    </table>
 
+    <!-- Forms are containers for user input. Forms are block elements, but its children are inline elements. -->
     <form action="">
         <label for="message">Please enter your message:</label>
         <input placeholder="Enter message" id="message" type="text">
@@ -126,7 +107,3 @@
     </p>
 </body>
 </html>
-
-
-
-

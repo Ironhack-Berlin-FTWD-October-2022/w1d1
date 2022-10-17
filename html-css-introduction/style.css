@@ -41,6 +41,7 @@ table {
     background-color: rgba(0, 255, 200, 0.326);
 }
 
+/* rgba-values to add opacity to a color */
 table {
     background-color: rgba(200, 50, 180, 0.5);
 }
@@ -53,13 +54,14 @@ table, thead, td, tr {
     border: 1px solid black;
 }
 
+/* Tools */
 /* Adobe color wheel: https://color.adobe.com/de/create/color-wheel */
 
 /* Color picker: ColorZilla, EyeDropper, htmlcolorcodes.com */
 
 /* Box-model */
 
-/* padding: 20px or  */
+/* padding: 20px > top & right & bottom & left */
 /* padding 20px 30px 40px 50px > top right bottom left */
 table {
     width: 200px;
@@ -68,11 +70,3 @@ table {
     border: 10px solid green;
     margin: 200px;
 }
-
-.second-table {
-    background-color: red;
-}
-
-
-
-
